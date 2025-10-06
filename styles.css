@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(249, 247, 247);
+}
+
+.card {
+    width: 100%;
+    max-width: 550px;
+    background: linear-gradient(rgb(18, 126, 117), rgb(157, 210, 218));
+    color: rgb(12, 6, 6);
+    text-align: center;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 70px;
+}
+
+.search {
+    margin: 20px;
+}
+
+.search input {
+    outline: 0;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    color: black;
+    background-color: white;
+}
+
+.search button {
+    width: 70px;
+    height: 40px;
+    outline: 0;
+    border-radius: 20px;
+    background: linear-gradient(rgb(8, 247, 251), rgb(60, 74, 78));
+}
+
+.input-box {
+    background-color: white;
+    position: relative;
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.pi,
+.po,
+.pu {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.pi {
+    top: 0;
+    left: 0;
+}
+
+.po {
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.pu {
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.input-box.completed {
+    color: rgb(255, 8, 0);
+}
+
+.alert-message {
+    color: rgb(34, 0, 255);
+    font-weight: bold;
+    margin: 10px 0;
+}
